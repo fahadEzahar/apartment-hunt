@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+.logo{
+  height:30%;
+  width:30%
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.buttonDesign{
+  background-color: #275A53;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.banner{
+  background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/logos/Rectangle\ 13.png);
+  background-position: center;
+  background-size: 100%;
+  padding: 8%;
+}
+.textColor{
+  color:#275A53
+}
+.locationIconStyle{
+  height:5%;
+  width: 5%;
+}
+.bathAndBedIcon{
+  height: 65%;
+  width: 20%;
+}
+.serviceIcon{
+  height: 30%;
+  width: 30%;
+}
+.contact-bg{
+  background-color: #275A53;;
+}
+.socialMediaIcon{
+  height: 80%;
+  width: 100%;
+}
+.facebookIcon{
+  background-image: url("../src/logos/Group\ 2.png");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: 1.8rem 1.8rem;
+  background-position: left center;
+}
+.googleIcon{
+  background-image: url("../src/logos/Group\ 573.png");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: 1.8rem 1.8rem;
+  background-position: left center;
+}
+.apartment-bg{
+  background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/logos/Rectangle\ 13.png);
+  background-position: center;
+  background-size: 100%;
+  padding: 5%;
+  
+}
+.dashboardIcon{
+  height: 8%;
+  width: 8%;
+}
+.tableStyle{
+  padding-bottom:10%;
+}
+.fileLabel{
+  
+    padding: 1%;
+    padding-right: 0%;
+    background: rgba(222, 255, 237, 1); 
+    display: table;
+    color: rgba(0, 148, 68, 1);
+    border: 1px solid rgba(0, 148, 68, 1);
+    
+}
+input[type="file"] {
+  display: none;
+  
+}
+option:nth-child(1){
+  color: red;
+}
+option:nth-child(2){
+  color: green;
+}
+option:nth-child(3){
+  color: gold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
